@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Spring Thyme Seed Starter Manager</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" type="text/css" media="all"
+	href="../../bootstrap/css/bootstrap.min.css"
+	th:href="@{/bootstrap/css/bootstrap.min.css}" />
+</head>
+
+<body>
+
+	<!-- <p th:text="'Hello！, ' + ${map} + '!'">3333</p> -->
+
+	<!-- 	<select class="form-control zz-set-input-size" id="channel" style="">
+		<option value="">请选择</option>
+		<option th:each="channel, channelS:${map}"
+			th:value="${channel.key}"><div th:text="${channel.value}" />
+		</option>
+	</select> -->
+
+
+
+	<!-- 	<select class="form-control zz-set-input-size" id="channel" style="">
+		<option value="">请选择-ID</option>
+		<option th:each="channel:${map}"
+			th:value="${channel.key}"><div th:text="${channel.value}" />
+		</option>
+	</select> -->
+
+	<!-- 	<select class="form-control zz-set-input-size" id="channel" style="">
+		<option value="">请选择-ID</option>
+		<option th:each="channel:${map}" th:value="${channel.key}" th:id="${channel.key}" th:text="${channel.value}">Name
+		</option>
+	</select>
+
+	<table border="1">
+		<tr>
+			<th>NAME</th>
+		</tr>
+		<tr th:each="prod,iterStat : ${map}"
+			th:class="${iterStat.odd}? 'odd'" th:type="${prod.key}">
+			<td th:id="${prod.key}" th:text="${prod.value}" >Name</td>
+		</tr>
+
+	</table> -->
+	<textarea rows="4" cols="200"></textarea>
+	<div class="navbar">
+		<div class="navbar-inner">
+			<a class="brand" href="#">Title</a>
+			<ul class="nav">
+				<li class="active"><a href="#">首页</a></li>
+				<li><a href="#">Link</a></li>
+				<li><a href="#">Link</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span2">
+				<!--Sidebar content-->
+				<ul class="nav nav-tabs nav-stacked" data-spy="affix"
+					data-offset-top="125">
+					<li class="active"><a href="#section-1">第一部分</a></li>
+					<li><a href="#section-2">第二部分</a></li>
+					<li><a href="#section-3">第三部分</a></li>
+					<li><a href="#section-4">第四部分</a></li>
+					<li><a href="#section-5">第五部分</a></li>
+				</ul>
+			</div>
+			<div class="span10">
+
+				<!--Body content-->
+
+				<!-- Main hero unit for a primary marketing message or call to action -->
+				<div class="leaderboard">
+					<h1>w3cschool Web Store</h1>
+					<p>Try and purchase HTML5, JS, Ruby, PHP-MySQL based web apps
+						to enhance your productivity at affordable price.</p>
+					<p>
+						<a class="btn btn-success btn-large">Sign Up for a 30 day free
+							trial</a>
+					</p>
+				</div>
+
+				<!-- Table Display -->
+				<table border="1" class="table table-striped">
+					<tr th:each="tr : ${table.list}" th:id="${tr.id}"
+						th:type="${tr.type}">
+						<td th:each="td:${tr.list}" th:width="${td.width}"
+							th:height="${td.height}" th:text="${td.value}"
+							th:colspan="${td.colspan}" th:rowspan="${td.rowspan}"
+							th:type="${td.editable}">单元格</td>
+					</tr>
+				</table>
+
+				<div class="leaderboard">
+					<!-- Example row of columns -->
+					<div class="row">
+						<div class="span1"></div>
+						<div class="span3">
+							<h2>HTML5 and JS Apps</h2>
+							<p>Donec id elit non mi porta gravida at eget metus. Fusce
+								dapibus, tellus ac cursus commodo, tortor mauris condimentum
+								nibh,ut fermentum massa justo sit amet risus. Etiam porta sem
+								malesuada magna mollis euismod. Donec sed odio dui.</p>
+							<p>
+								<a class="btn btn-success btn-large" href="#">View apps</a>
+							</p>
+						</div>
+						<div class="span4">
+							<h2>Ruby Apps</h2>
+							<p>Donec id elit non mi porta gravida at eget metus. Fusce
+								dapibus, tellus ac cursus commodo, tortor mauris condimentum
+								nibh,ut fermentum massa justo sit amet risus. Etiam porta sem
+								malesuada magna mollis euismod. Donec sed odio dui.</p>
+							<p>
+								<a class="btn btn-success btn-large" href="#">View apps</a>
+							</p>
+						</div>
+						<div class="span2">
+							<h2>PHP MySQL Apps</h2>
+							<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis
+								in, egestas eget quam. Vestibulum id ligula porta felis euismod
+								semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+								condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+							<p>
+								<a class="btn btn-success btn-large" href="#">View apps</a>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<footer>
+					<p>&copy; Company 2012</p>
+				</footer>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+</body>
+</html>
