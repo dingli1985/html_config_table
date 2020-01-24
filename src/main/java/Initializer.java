@@ -9,15 +9,15 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration.Dynamic;
 
-import com.xhp.hrms.config.MyBatisConfig;
+import config.MyBatisConfig;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.filter.DelegatingFilterProxy;
 import org.springframework.web.servlet.DispatcherServlet;
 
-import com.xhp.hrms.config.ShiroConfig;
-import com.xhp.hrms.config.ThymeleafConifg;
-import com.xhp.hrms.config.WebAppConfig;
+import config.ShiroConfig;
+import config.ThymeleafConifg;
+import config.WebAppConfig;
 
 public class Initializer implements WebApplicationInitializer {
 
