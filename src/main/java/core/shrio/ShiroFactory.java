@@ -1,6 +1,6 @@
 package core.shrio;
 
-import com.xhp.hrms.entity.User;
+import entity.User;
 
 
 public class ShiroFactory implements IShiro {
