@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 
 @Configuration
-@ComponentScan("com.xhp.hrms.web")
+@ComponentScan("web")
 @EnableWebMvc
 @MapperScan("com.xhp.hrms.mapper")
 @PropertySource("classpath:application.properties") // 读取application.properties
