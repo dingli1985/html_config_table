@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* 17k louis */
+.area { margin: 0 auto; width: 950px; overflow: hidden; }
+
+
+／*阅读区域*／
+.read { clear: both; margin: 0 auto; width: 950px; overflow: hidden; background: #E7F4FE; }
+
+.read_tit { height: 32px; background: url(http://img.17k.com/style/book/repeat-x.png) repeat-x 0 -100px; }
+
+.read_tit .btn { padding-right: 5px; }
+
+.read_tit .btn li { float: left; margin: 0 0 0 5px; display: inline; width: 68px; height: 23px; line-height: 23px; text-align: center; background: url(http://img.17k.com/style/book/bookbg.png) -420px -90px no-repeat; }
+
+.read,
+.readArea {
+	width: 1000px;
+	background: #F6F6F6;
+}
+
+.read_tit .btn li.fullBtn {
+	background: url('http://img.17k.com/style/book/full.png') no-repeat 0 0;
+}
+
+.cf6f { background-color: #F6F6F6; }
+
+
+
+
+#fontColor,
+#fontSize { float: left; margin-left: 10px; display: inline; }
+
+#fontColor strong,
+#fontSize strong { float: left; margin: 0 5px 0 0; }
+
+#fontColor { background: url(http://img.17k.com/style/book/fontColor.gif) no-repeat 96px 0; }
+
+#fontColor span { float: left; margin-right: 3px; padding-top: 15px; width: 15px; height: 0; overflow: hidden; cursor: pointer; }
+
+#fontSize span { float: left; margin-right: 5px; text-decoration: underline; cursor: pointer; }
+
+
+
+
