@@ -1,8 +1,8 @@
 package web;
 
-import com.xhp.hrms.core.shrio.ShiroDbRealm;
-import com.xhp.hrms.exception.LoginException;
-import com.xhp.hrms.mapper.UDictMapper;
+import core.shrio.ShiroDbRealm;
+import exception.LoginException;
+import mapper.UDictMapper;
 import org.apache.log4j.Logger;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;

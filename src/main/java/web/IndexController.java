@@ -7,9 +7,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.xhp.hrms.entity.TABLE;
-import com.xhp.hrms.entity.TD;
-import com.xhp.hrms.entity.TR;
+import entity.TABLE;
+import entity.TD;
+import entity.TR;
 
 @Controller
 public class IndexController {

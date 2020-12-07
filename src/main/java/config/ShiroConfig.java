@@ -15,7 +15,7 @@ import org.springframework.beans.factory.config.MethodInvokingFactoryBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.xhp.hrms.core.shrio.ShiroDbRealm;
+import core.shrio.ShiroDbRealm;
 
 
 @Configuration
