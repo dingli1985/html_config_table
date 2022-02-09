@@ -16,7 +16,7 @@
 		<jasper.version>2.2.2</jasper.version>
 		<jstl.version>1.2</jstl.version>
 		<spring.version>4.3.9.RELEASE</spring.version>
-		<shiro.version>1.2.5</shiro.version>
+		<shiro.version>1.7.1</shiro.version>
 		<thymeleaf.version>2.1.5.RELEASE</thymeleaf.version>
 		<hikaricp.version>2.4.12</hikaricp.version>
 		<mysql.version>5.1.42</mysql.version>
